@@ -35,6 +35,7 @@ class Cell(Agent):
         # at the next tick.
         live_neighbors = sum(neighbor.isAlive() for neighbor in self.neighbors())
 
+
         # Assume nextState is unchanged, unless changed below.
         self._nextState = self.state
         if self.isAlive():
