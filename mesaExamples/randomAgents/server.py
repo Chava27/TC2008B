@@ -1,5 +1,4 @@
 from model import RandomModel, ObstacleAgent, TrashAgent
-from random import randint
 
 from mesa.visualization.modules import CanvasGrid, BarChartModule
 from mesa.visualization.ModularVisualization import ModularServer
